@@ -17,14 +17,14 @@ const About = () => {
       <p>You can follow me via my social media handles</p>
       
       <div className="fontAwe">
-        <a href="https://twitter.com/Akinlope" target={"_blank"}>
+        <a href="https://twitter.com/Akinlope" rel="noreferrer" target={"_blank"}>
           <FontAwesomeIcon icon={faTwitter} className="faTw" />
         </a>
 
-        <a href="https://www.instagram.com/its.tolulope" target={"_blank"}>
+        <a href="https://www.instagram.com/its.tolulope" rel="noreferrer" target={"_blank"}>
           <FontAwesomeIcon icon={faInstagram} className="faIg" />
         </a>
-        <a href="https://github.com/akinlope" target={"_blank"}>
+        <a href="https://github.com/akinlope" rel="noreferrer" target={"_blank"}>
           <FontAwesomeIcon icon={faGithub} className="faGh" />
         </a>
 
